@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delphi AI Clone</title>
+</head>
+<body>
+    <div id="ai-clone-container">
+        <script id="delphi-page-script">
+            window.delphi = {...(window.delphi ?? {}) };
+            window.delphi.page = {
+                config: "615504ee-1c7f-4de2-9dfb-fe37a4fdb2ec",
+                overrides: {
+                    landingPage: "OVERVIEW",
+                },
+                container: {
+                    width: "100%",
+                    height: "800px",
+                },
+            };
+        </script>
+        <script id="delphi-page-bootstrap" src="https://embed.delphi.ai/loader.js"></script>
+    </div>
+</body>
+</html>
